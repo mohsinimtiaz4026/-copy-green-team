@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face {
+  font-family: Rubik;
+  src: url('../assets/fonts/Rubik-Regular.ttf');
+}
+* {
+  font-family: Rubik;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+div,span,p{
+  font-family: Rubik;
+}
+
+html,
+body {
+  font-family: Rubik;
+  max-width: 100vw;
+  overflow-x: hidden;
+  background: #fff;
+}
+
+.MuiAppBar-root .css-z0pga-MuiButtonBase-root-MuiButton-root:hover{
+  background-color: #3e7844;
+  color: white;
+}
+.slick-slide > div {
+  margin: 0 10px;
+}
+.css-ci5apu-MuiSvgIcon-root {
+  color: #3e7844 !important;
+}
+.fixedTop {
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background: #fff;
+}
